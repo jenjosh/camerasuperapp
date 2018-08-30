@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/plus">
+    <target
+        android:animation="@animator/rot_cw"
+        android:name="plus_group" />
+    <target
+        android:animation="@animator/plus_minus"
+        android:name="plus_path" />
+</animated-vector>

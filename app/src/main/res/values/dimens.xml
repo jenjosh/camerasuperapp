@@ -1,0 +1,7 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="image_size">300dp</dimen>
+    <dimen name="logo_size">150dp</dimen>
+    <dimen name="logobig_size">110dp</dimen>
+    <dimen name="team_size">200dp</dimen>
+</resources>

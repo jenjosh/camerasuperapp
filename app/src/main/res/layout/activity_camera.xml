@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <TextureView
+            android:id="@+id/activity_camera_texture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="80dp"
+            android:layout_marginTop="8dp" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="80dp"
+            android:layout_marginTop="8dp">
+
+            <View
+                android:id="@+id/activity_camera_line1"
+                android:layout_width="166dp"
+                android:layout_height="9dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/line1"
+                android:rotation="0" />
+
+            <View
+                android:id="@+id/activity_camera_line2"
+                android:layout_width="166dp"
+                android:layout_height="9dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/line1"
+                android:rotation="0" />
+
+            <View
+                android:id="@+id/activity_camera_line3"
+                android:layout_width="150dp"
+                android:layout_height="31dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/line2"
+                android:rotation="0" />
+
+            <View
+                android:id="@+id/activity_camera_line6"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="75dp"
+                android:background="@drawable/line3"
+                android:rotation="0" />
+
+            <View
+                android:id="@+id/activity_camera_line7"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/line3"
+                android:rotation="0" />
+
+            <View
+                android:id="@+id/activity_camera_line4"
+                android:layout_width="150dp"
+                android:layout_height="31dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="45dp"
+                android:background="@drawable/line2"
+                android:rotation="0" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:id="@+id/activity_camera_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/take_picture" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/t1_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+        android:id="@+id/activity_main_float3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activity_main_float2"
+        android:layout_alignEnd="@id/activity_main_float"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onClick"
+        android:scaleType="center"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/activity_main_float2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activity_main_float"
+        android:layout_alignEnd="@id/activity_main_float"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="center"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/activity_main_float"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onClick"
+        android:scaleType="center"
+        app:srcCompat="@drawable/plus"/>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <ImageView
+            android:id="@+id/activity_main_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/logo_size"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="90dp"
+            android:contentDescription="@string/activity_main_image_desc"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/activity_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="324dp"
+            android:text="@string/activity_main_title_text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/activity_main_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="362dp"
+            android:text="@string/activity_main_body_text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/activity_main_body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="400dp"
+            android:text="@string/activity_main_body_text2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/activity_main_float4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_size"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/activity_main_image_desc"
+            android:scaleType="centerInside"
+            app:backgroundTint="@color/colorTransparent"
+            app:rippleColor="@color/colorTransparent" />
+
+    </FrameLayout>
+</RelativeLayout>
+
+
+
+

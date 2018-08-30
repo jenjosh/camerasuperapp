@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Vancomycin Biosensor App</string>
+    <string name="activity_main">Vancomycin Biosensor App</string>
+    <string name="activity_sec_screen">Activity: Second Screen</string>
+    <string name="activity_camera">Line up test strip</string>
+    <string name="activity_about">About Us</string>
+    <string name="activity_contact">Contact Us</string>
+    <string name="activity_information">Information</string>
+    <string name="activity_license">Licenses</string>
+    <string name="activity_help">Help</string>
+    <string name="activity_main_title_text">&#160;</string>
+    <string name="activity_main_body_text">Concentration</string>
+    <string name="activity_main_body_text2">Date and Time</string>
+    <string name="activity_main_previous_values">Intensity 0 | Intensity 1 | Intensity 2</string>
+    <string name="activity_main_image_desc">Picture which displays camera-taken photo.</string>
+    <string name="menu_main_about">About Us</string>
+    <string name="menu_main_contact_us">Contact Us</string>
+    <string name="menu_main_information">Information</string>
+    <string name="menu_main_licences">Licenses</string>
+    <string name="menu_main_help">Help</string>
+    <string name="take_picture">Capture Image</string>
+    <string name="titlevals">Save Date/Time&#160;&#160;&#160;&#160;&#160;Concentration</string>
+    <string name= "activity_information_body"><b>About Vancomycin: \n \n</b>Vancomycin is known as the last-resort antibiotic;
+        it is to be used when all other medications have failed, in serious, life-threatening bacterial infections, including
+        meningitis. Despite being useful in fighting such deadly infections, Vancomycin has several side-effects: local pain,
+        allergic reactions, thrombophlebitis (formation of blood clots), nephrotoxicity, ototoxicity. It is difficult to measure
+        the exact safe dose of Vancomycin, because it shows a large variability of pharmacokinetics from patient to patient: it
+        is absorbed differently from person to person, even at the same dose. Therefore, the therapeutic range (i.e. doses at
+        which the drug is effective, without posing toxicity issues) is unique to each individual. Vancomycin administration
+        therefore requires continuous monitoring of the blood concentration, to ensure the medication is useful, while minimising
+        the possibility of side effects. \n \n
+        Another major problem is the ability of bacteria to mutate and develop resistance against antibiotics. Incorrect dosage of
+        Vancomycin could lead to high drug concentration in the blood, which in time would lead to bacterial resistance to the drug.
+        As this is a last-resort antibiotic, Vancomycin-resistance in bacteria is a serious concern. \n \n
+        A biosensor designed for Vancomycin detection could be a solution for both these issues, as it would allow for personalised
+        treatment for each individual, based on drug concentrations found in their blood. This biosensor will be designed so it could
+        be used in healthcare institutions and at home as well, while requiring a minimal amount of blood for the measurements.
+    </string>
+    <string name= "activity_about_body">We are SensImperial, a team of 10 Science and Engineering Students from Imperial College
+        London, and we have designed and prototyped a vancomycin biosensor for the International SensUs Competition. \n \n
+        Our abilities are covering a wide range, as our team incorporates chemists, medicinal chemists, biomedical engineers and
+        electrical engineers. This was to ensure that our project benefits both on the biochemical part (how do we want to sense
+        the drug?) and on the engineering part (how do we want the sensor to look/be used?). \n \n
+        We aimed to design a good biosensor, that is reliable, efficient, quick and easy to use. Therefore, we are replacing the
+        classic, box-like biosensors, with our novel approach: an app, downloadable on every smartphone in the world, paired with
+        a nitrocellulose membrane fitted with chemicals which can quantitatively bind and detect vancomycin in blood plasma samples.
+        We are hoping that our final product will be useful to patients and individuals specialised in medicine (medics, nurses etc),
+        allowing for a better, more controlled administration of vancomycin.
+    </string>
+    <string name="activity_help_body">To take a photo, press the + button and select the camera icon. Line up the outline with the test
+        strip and press the capture image button. \n \n
+        To save the results for later viewing, press the + button and select the file icon. This will save the result. \n \n
+        To view previously saved results, slide you finger across the page to load the previous values tab.
+    </string>
+    <string name= "activity_contact_body">You can contact us at our various social media links below: \n \n \n
+        <b>Website: </b> \n <a href="https://sensimperial18.wixsite.com/website"> https://sensimperial18.wixsite.com/website</a> \n \n
+        <b>Facebook: </b> \n <a href="https://www.facebook.com/sensimperial18/"> https://www.facebook.com/sensimperial18/</a> \n \n
+        <b>Instagram: </b> \n <a href="https://www.instagram.com/sensimperial18/"> https://www.instagram.com/sensimperial18/</a>
+    </string>
+    <string name="activity_license_body">This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version. \n \n
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details. \n \n
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <a href="https://www.gnu.org/licenses/"> https://www.gnu.org/licenses/</a></string>
+
+</resources>
